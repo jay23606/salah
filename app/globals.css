@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+/* One place for the palette, so a contributor changing the look changes it
+   here rather than hunting hex codes through the components. Green because
+   it reads as MSSN without borrowing the society's actual logo or marks —
+   this is an independent open-source project, not official branding. */
+@theme {
+  --color-ink: #0b1f17;
+  --color-ink-soft: #3d5b4e;
+  --color-parchment: #f6f4ee;
+  --color-card: #ffffff;
+  --color-rule: #e2e0d8;
+
+  --color-brand: #0f6b4a;
+  --color-brand-soft: #e6f2ec;
+
+  --color-clear: #0f6b4a;
+  --color-tight: #a1620a;
+  --color-blocked: #a4243b;
+}
+
+html,
+body {
+  background: var(--color-parchment);
+  color: var(--color-ink);
+}
+
+@media (prefers-color-scheme: dark) {
+  html,
+  body {
+    background: #0b1512;
+    color: #eef3f0;
+  }
+}

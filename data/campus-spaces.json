@@ -1,0 +1,78 @@
+{
+  "$comment": "SEED DATA — every entry here is marked verified:false and must be checked on the ground before anyone relies on it. Correcting one of these, or adding a space we have missed, is the most useful first contribution to this project. See ISSUES.md.",
+  "lastReviewed": null,
+  "spaces": [
+    {
+      "id": "central-mosque",
+      "name": "MSSN UNILAG Central Mosque",
+      "area": "Central campus",
+      "nearestLandmark": "Along the main campus road",
+      "capacity": "large",
+      "hasWudu": true,
+      "sisters": true,
+      "jumuah": true,
+      "notes": "The main congregational mosque. Jumu'ah is held here.",
+      "verified": false
+    },
+    {
+      "id": "science-musallah",
+      "name": "Faculty of Science musallah",
+      "area": "Faculty of Science",
+      "nearestLandmark": "Faculty of Science complex",
+      "capacity": "medium",
+      "hasWudu": true,
+      "sisters": true,
+      "jumuah": false,
+      "notes": "Convenient between back-to-back labs.",
+      "verified": false
+    },
+    {
+      "id": "engineering-musallah",
+      "name": "Faculty of Engineering musallah",
+      "area": "Faculty of Engineering",
+      "nearestLandmark": "Engineering complex",
+      "capacity": "medium",
+      "hasWudu": true,
+      "sisters": false,
+      "jumuah": false,
+      "notes": "Sisters' provision unconfirmed — needs checking.",
+      "verified": false
+    },
+    {
+      "id": "arts-musallah",
+      "name": "Faculty of Arts musallah",
+      "area": "Faculty of Arts",
+      "nearestLandmark": "Faculty of Arts building",
+      "capacity": "small",
+      "hasWudu": false,
+      "sisters": true,
+      "jumuah": false,
+      "notes": "No wudu facility in the room itself.",
+      "verified": false
+    },
+    {
+      "id": "education-musallah",
+      "name": "Faculty of Education musallah",
+      "area": "Faculty of Education",
+      "nearestLandmark": "Faculty of Education building",
+      "capacity": "small",
+      "hasWudu": false,
+      "sisters": false,
+      "jumuah": false,
+      "notes": "Placeholder entry — details unconfirmed.",
+      "verified": false
+    },
+    {
+      "id": "law-musallah",
+      "name": "Faculty of Law musallah",
+      "area": "Faculty of Law",
+      "nearestLandmark": "Faculty of Law building",
+      "capacity": "small",
+      "hasWudu": false,
+      "sisters": false,
+      "jumuah": false,
+      "notes": "Placeholder entry — details unconfirmed.",
+      "verified": false
+    }
+  ]
+}
